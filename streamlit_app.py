@@ -1,6 +1,6 @@
 import streamlit as st 
 import pandas as pd 
-from st_aggrid import AgGrid
+# from st_aggrid import AgGrid
 
 # baca dataframe dari file csv 
 df_house_clean = pd.read_csv('house_clean.csv')
@@ -15,6 +15,7 @@ def main() :
     st.dataframe(df_house_clean)
     st.write('Metrics')
     st.metric(label="Temperature", value="70 °F", delta="-1.2 °F")
+
     # AgGrid(df_house_clean)
 
     # Create button
