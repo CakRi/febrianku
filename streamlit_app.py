@@ -1,7 +1,7 @@
 import streamlit as st 
 
 def main() : 
-    st.header('This is Header')
+    st.header('Halaman Streamlit Febrian Bahari Adi')
     st.subheader('This is SubHeader')
     st.markdown('# Rendering Markdown ')
     st.write('Some Phytagorean Equation : ')
